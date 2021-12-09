@@ -7,9 +7,9 @@ for the development of this android app 6 JAVA classes were created along with t
 MAinActivity Class.
 It sets the main activity layout and the tool bar added to display the app name.
 ```java
-//sets content view with main activity
+//sets content of the main activity layout
 setContentView(R.layout.activity_main);
-//sets tool bar in main activity
+//instantiate the tool bar in main activity
 Toolbar tb = findViewById(R.id.toolbar);
 setSupportActionBar(tb);
 ```
